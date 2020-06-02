@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rake', '11.3.0'
+gem 'rake', '13.0.1'
 gem 'pry'
 
 group :docs do
@@ -11,7 +11,7 @@ end
 group :spec do
     gem 'simplecov', require: false, group: :test
 
-    gem 'rspec', '2.99.0'
+    gem 'rspec', '3.9.0'
     gem 'faker'
 end
 
